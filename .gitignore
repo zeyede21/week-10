@@ -1,0 +1,43 @@
+# Ignore Python virtual environment
+week-10/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.xlsx
+*.zip
+
+# Model artifacts
+*.pkl
+*.h5
+*.pt
+*.joblib
+*.sav
+
+# PyMC3 / ArviZ cache
+*.nc
+*.log
+
+# Environment and dependency files
+.env
+*.env
+*.egg-info/
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+

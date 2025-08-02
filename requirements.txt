@@ -1,0 +1,23 @@
+# Core data science libraries
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+
+# Time series & Bayesian modeling
+pymc3==3.11.5
+theano==1.0.5
+
+# Dashboard - Flask API backend
+flask
+flask-cors
+
+# Frontend dependencies (for reference, handled via npm separately)
+# react (installed via npm)
+# axios
+
+# Utility & testing
+tqdm
+python-dotenv
+pytest
