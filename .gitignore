@@ -1,5 +1,6 @@
 # Ignore Python virtual environment
 week-10/
+week10/  # Added virtual environment named week10
 
 # Byte-compiled / cache files
 __pycache__/
@@ -41,3 +42,8 @@ data/processed/
 .DS_Store
 Thumbs.db
 
+# Node.js / React frontend
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/

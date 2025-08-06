@@ -1,6 +1,11 @@
-# PyMC3 change point model functions
 import pymc3 as pm
 import numpy as np
+
+try:
+    from distutils.msvccompiler import get_build_version
+    print(f"MSVC Compiler Version: {get_build_version()}")
+except ImportError:
+    print("distutils.msvccompiler module not found. Ensure you have the necessary build tools installed.")
 
 def build_change_point_model(data):
     """Builds a basic Bayesian change point model with PyMC3."""
