@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
-from data_loader import load_brent_data
-from change_point_model import build_change_point_model
-from analyze_change_points import plot_with_change_point
+from src.data_loader import load_brent_data
+from src.change_point_model import build_change_point_model
+from src.analyze_change_points import plot_with_change_point
 
 app = Flask(__name__)
 
